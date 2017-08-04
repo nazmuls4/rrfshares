@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:300,400,700,800|Roboto:300,400,700,900');
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+   
+}
+
+
+.{
+    font-family: 'Niconne', cursive;
+}
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.8;
+font-weight:400;
+font-size: 15px;
+}
+
+body, html{
+    height: 100%;
+}
+
+.section-padding{
+	padding: 100px 0;
+}
+.services-bg{
+    background-image: url(assets/img/bg-den.-1.jpg)
+}
+
+.services-bg.bg-2{
+    background-image: url(assets/img/bg-den.jpg)
+}
+.services-bg.bg-3{
+    background-image: url(assets/img/bg-den-3.jpg)
+}
+
+
+
+.services-bg {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  border-radius: 5px 5px 0px 0px;
+}
+.services-bg i {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  background: #25385B;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  border: 5px solid #ff;
+  line-height: 75px;
+  border: 5px solid #fff;
+  margin-left: -40px;
+  transition: .4s;
+}
+.services-bg i:before {
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+}
+.single-dentel-service {
+  border: 1px solid #ddd;
+  border-radius: 5px 5px 0px 0px;
+    display: block;
+    color: inherit;
+}
+.single-dentel-service h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 40px 5px;
+  padding-top: 50px;
+  margin: 0;
+  transition: .4s;
+}
+
+
+.single-dentel-service:hover h2 {
+  background: #25385B;
+  color: #fff;
+}
+.single-dentel-service:hover .services-bg i {
+  border-color: #25385B;
+  background: #00C6CC;
+}
+
+.title-area {
+  margin-bottom: 80px;
+}
+.title-area h2 {
+  text-transform: uppercase;
+  color: #222;
+}
+
+
+
+.dropdown-menu-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.dropdown-menu-list ul li {
+  display: inline-block;
+    position: relative;
+}
+.dropdown-menu-list ul li a {
+  padding: 19px 25px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+.dropdown-menu-list ul li:hover > a {
+    background: red;
+    
+}
+.dropdown-menu-list {
+  background: #222;
+  color: #fff;
+    
+}
+
+
+.dropdown-menu-list ul li ul {
+	visibility: hidden;
+	opacity: 0;
+	top: 65px;
+	opacity: 1;
+    position: absolute;
+    left: 0;
+    z-index: 9;
+    background: #444;
+    width: 250px;
+    transition: .3s;
+}
+
+.dropdown-menu-list ul li ul li {
+	display: block;
+}
+
+.dropdown-menu-list ul li ul li a {
+	text-align: left;
+	display: block;
+	padding: 10px 10px;
+	text-transform: none;
+	transition: .3s;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.dropdown-menu-list ul li ul li:hover > a {
+	background: green;
+	color: #fff;
+	padding: 14px 35px;
+}
+.dropdown-menu-list ul li:hover ul {
+	visibility: visible;
+	opacity: 1;
+	top: 65px;
+	visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+.dropdown-menu-list li:hover ul ul{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.dropdown-menu-list ul ul li ul {
+    left: 250px;
+}
+
+.dropdown-menu-list ul ul li:hover > ul {
+    top: 0;    
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
