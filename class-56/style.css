@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:300,400,700,800|Roboto:300,400,700,900');
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+   
+}
+
+
+.{
+    font-family: 'Niconne', cursive;
+}
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.8;
+font-weight:400;
+font-size: 15px;
+}
+
+body.theme-2 {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#afafaf+0,698ea3+20,a0747a+75,b1a8b0+100 */
+background: #afafaf; /* Old browsers */
+background: -moz-linear-gradient(left, #afafaf 0%, #698ea3 20%, #a0747a 75%, #b1a8b0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #afafaf 0%,#698ea3 20%,#a0747a 75%,#b1a8b0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #afafaf 0%,#698ea3 20%,#a0747a 75%,#b1a8b0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afafaf', endColorstr='#b1a8b0',GradientType=1 ); /* IE6-9 */
+
+}
+body.theme-1 {
+  background-image: url(./assets/img/bg.jpg);
+  background-color: #ddd;
+}
+
+body.theme-1 {
+  background-size: cover;
+  background-position: center;
+transition:All 1s ease-in-out;
+-webkit-transition:All 1s ease-in-out;
+-moz-transition:All 1s ease-in-out;
+-o-transition:All 1s ease-in-out;
+}
+
+body.theme-2 {
+  padding: 5%;
+  transition:All 1s ease-in-out;
+-webkit-transition:All 1s ease-in-out;
+-moz-transition:All 1s ease-in-out;
+-o-transition:All 1s ease-in-out;
+}
+
+.main-wrap {
+    height: 100%;
+    width: 100%;
+}
+
+.theme-2 .main-header-area {
+    position: relative;
+}
+.theme-2 .main-footer-area {
+    position: relative;
+}
+
+.theme-2 .main-wrap {
+    background-image: url(./assets/img/bg.jpg);
+  background-color: #ddd;
+}
+.theme-2 .main-wrap {
+    
+  background-size: cover;
+  background-position: center;;
+}
+body, html {
+    height: 100%;
+}
+.main-wrap-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.main-wrap-tablecell {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+}
+.main-header-area {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.main-footer-area {
+    border-top: 1px solid #ddd;
+    bottom: 0;
+    left: 0;
+    padding: 20px 70px;
+    position: absolute;
+    width: 100%;
+}
+.main-header-area {
+    padding: 40px 70px;
+}
+.logo h1 {
+}
+.logo h1 a {
+    color: #222;
+    display: inline-block;
+}
+.logo h1 a:hover {
+    text-decoration: none;
+}
+.mainmenu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.mainmenu ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+.mainmenu {
+    text-align: right;
+}
+.mainmenu ul li a {
+    color: #7c645c;
+    display: block;
+}
+.mainmenu ul li a:hover {
+    text-decoration: none;
+}
+.main-header-area {
+}
+.main-hero-text {
+    padding: 50px 70px;
+}
+.main-hero-text h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+.social-links {
+    text-align: right;
+}
+.social-links a {
+    color: #b1a6b0;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 20px;
+    transition: all 0.3s ease 0s;
+}
+.social-links a:hover {
+    color: #222;
+}
+.footert-copyright-text {
+    margin-top: 15px;
+}
