@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:300,400,700,800|Roboto:300,400,700,900');
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+   
+}
+
+
+.{
+    font-family: 'Niconne', cursive;
+}
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.8;
+font-weight:400;
+font-size: 15px;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+.single-testimonial-item {
+    box-shadow: 0 0 5px #fafafa;
+padding: 45px 80px;
+}
+
+.common-section {
+    margin-bottom: 60px;
+}
+.common-section h2 {
+    font-weight: 700;
+}
+.testimonial-top img {
+   margin-top: -50px;
+max-width: 110px;
+}
+.testimonial-top h3 {
+    display: inline-block;
+    font-size: 25px;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+.testimonial-top {
+    margin-bottom: 30px;
+}
+.testimonial-top h3 span {
+    display: inline-block;
+font-size: 70%;
+opacity: 0.5;
+padding-top: 16px;
+text-transform: none;
+}
+.testimonial-content {
+    font-size: 16px;
+    line-height: 1.86;
+}
+
+ul.testimonial-author-name {
+    height: 255px;
+    list-style: outside none none;
+    margin: 0;
+    overflow-y: scroll;
+    padding: 0;
+}
+ul.testimonial-author-name img {
+    border-radius: 50%;
+    height: 70px;
+    margin-top: -30px;
+    width: 70px;
+}
+ul.testimonial-author-name h3 {
+    display: inline-block;
+font-size: 18px;
+max-width: 170px;
+padding-left: 15px;
+text-transform: uppercase;
+}
+ul.testimonial-author-name h3 span {
+    display: inline-block;
+    font-size: 80%;
+    margin-top: 10px;
+    opacity: 0.5;
+    text-transform: none;
+}
+ul.testimonial-author-name li {
+    margin-bottom: 6px;
+    padding-top: 20px;
+    opacity: .5;
+}
+ul.testimonial-author-name li.active {
+    
+    opacity: 1;
+}
+ul.testimonial-author-name li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.testimonial {
+    position: relative;
+}
+.testimonial-title {
+    bottom: 60px;
+    color: #ecebeb;
+    left: -180px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0;
+    position: absolute;
+    text-transform: uppercase;
+    transform: rotate(270deg);
+    width: 300px;
+    z-index: 1;
+}
+.testimonial-title::after {
+    background: #ecebeb none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.testimonial-title span {
+    background: #fff none repeat scroll 0 0;
+    padding-right: 20px;
+    position: relative;
+    z-index: 2;
+}
+.ps > div.ps__scrollbar-y-rail {
+ 
+  opacity: 1;
+}
