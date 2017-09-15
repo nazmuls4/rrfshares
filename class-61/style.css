@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:300,400,700,800|Roboto:300,400,700,900');
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+   
+}
+
+
+.{
+    font-family: 'Niconne', cursive;
+}
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.8;
+font-weight:400;
+font-size: 15px;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+
+#map {
+   box-shadow: 0 0 8px #000;
+
+height: 500px;
+margin-bottom: -175px;
+width: 100%;
+}
+
+
+.section-padding.map-bg {
+    background: #343950 none repeat scroll 0 0;
+color: #fff;
+margin-bottom: 76px;
+}
+h1.map-title-heading {
+    font-size: 65px;
+    font-weight: normal;
+}
+div.map-marker-area-heading {
+    margin-bottom: 36px;
+}
+ul.location-list {
+    list-style: outside none none;
+}
+ul.location-list li {
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    position: relative;
+}
+ul.location-list li h3 {
+    color: #d79b33;
+}
+ul.location-list li h3 span {
+    font-size: 18px;
+}
+ul.location-list li p {
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+ul.location-list li::after {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    opacity: 0.1;
+    position: absolute;
+    width: 100px;
+}
+
+.map-marker-area-heading p {
+    color: #718fa3;
+}
+.map-marker-area-heading p strong {
+    color: #fff;
+}
+ul.location-list li:last-child::after {
+    display: none;
+}
+ul.location-list li:last-child {
+    margin: 0;
+}
