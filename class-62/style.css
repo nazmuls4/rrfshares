@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:300,400,700,800|Roboto:300,400,700,900');
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+   
+}
+
+
+.{
+    font-family: 'Niconne', cursive;
+}
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.8;
+font-weight:400;
+font-size: 15px;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.project-bg-1{
+    background-image: url(assets/img/img.jpg);
+}
+.project-bg-2{
+    background-image: url(assets/img/img1.jpg);
+}
+
+.project-bg-3{
+    background-image: url(assets/img/img2.jpg);
+}
+
+.project-bg-4{
+    background-image: url(assets/img/img3.jpg);
+}
+
+.project-bg-5{
+    background-image: url(assets/img/img4.jpg);
+}
+
+
+
+ul.project-filter {
+    list-style: outside none none;
+    margin: 0 0 45px;
+    padding: 0;
+    text-align: center;
+}
+ul.project-filter li {
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 15px;
+    text-transform: capitalize;
+}
+.active {
+}
+ul.project-filter li.active {
+    border-color: #000;
+}
+.single-project-box {
+    background-position: center center;
+    background-size: cover;
+    display: table;
+    height: 300px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.project-hover {
+    display: table-cell;
+    opacity: 0;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    transform: scale(0.6);
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    visibility: hidden;
+    z-index: 1;
+}
+.project-hover h3 {
+    font-weight: 700;
+}
+.project-hover::after {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.project-hover h3:last-child {
+}
+.project-hover p {
+}
+.project-hover p:last-child {
+    margin-bottom: 0;
+}
+body {
+    color: #333;
+}
+.single-project-box::after, .single-project-box::before {
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    bottom: 0;
+    content: "";
+    height: 80px;
+    left: 0;
+    width: 80px;
+    z-index: 2;
+}
+.single-project-box::after, .single-project-box::before {
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+}
+.single-project-box::before {
+    border-color: #000 #000 -moz-use-text-color -moz-use-text-color;
+    border-style: solid solid none none;
+    border-width: 2px 2px medium medium;
+    bottom: auto;
+    left: auto;
+    right: 0;
+    top: 0;
+}
+.single-project-box:hover .project-hover {
+    opacity: 1;
+    transform: scale(1);
+    visibility: visible;
+}
+.single-project-box:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+.single-project-box:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
