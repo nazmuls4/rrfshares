@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:300,400,700,800|Roboto:300,400,700,900');
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+   
+}
+
+
+.{
+    font-family: 'Niconne', cursive;
+}
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.8;
+font-weight:400;
+font-size: 15px;
+color: #333333;
+}
+
+.section-padding{
+    padding:100px 0;
+}
+
+.service-box {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+.single-service-box {
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+.service-box .col-md-4 {
+    padding: 0;
+}
+.service-box .row {
+    margin: 0;
+}
+.single-service-box {
+    font-size: 15px;
+    padding: 10%;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+.single-service-box p:last-child {
+    margin: 0;
+}
+.single-service-box h4 {
+    text-transform: uppercase;
+}
+.service-icon {
+    color: #cf1e18;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.single-service-box:hover {
+}
+.single-service-box:hover {
+    box-shadow: 0 45px 100px #999;
+}
