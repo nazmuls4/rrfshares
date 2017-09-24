@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:300,400,700,800|Roboto:300,400,700,900');
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+   
+}
+
+
+.{
+    font-family: 'Niconne', cursive;
+}
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.8;
+font-weight:400;
+font-size: 15px;
+color: #333333;
+}
+
+
+.section-padding {
+  padding-top: 100px;
+}
+.fetured-title {
+  margin-bottom: 210px;
+}
+.fetured-area {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 158px;
+}
+.fetured-title h3 {
+  color: #73759E;
+  font-size: 28px;
+}
+
+.futrued-content h4 {
+  color: #73759E;
+  font-size: 25px;
+}
+.position-absulate {
+  position: absolute;
+  right: -70px;
+  bottom: 0;
+}
+
+
+.position-absulate {
+  position: absolute;
+  right: -70px;
+  bottom: 0;
+}
+
+
+.menu-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.menu-list ul li {
+  display: inline-block;
+  position: relative;
+}
+.menu-list ul li a {
+  display: block;
+  text-transform: uppercase;
+  padding: 18px 25px;
+  color: #fff;
+  transition: .3s;
+}
+.main-meu {
+  background: #222;
+  color: #fff;
+}
+.menu-list ul li a:hover {
+  text-decoration: none;
+  background: #f4f4f4;
+  color: #222;
+}
+
+.is-sticky {
+  width: 100%;
+  z-index: 999;
+}
+.is-sticky ul li a {
+  padding: 10px 15px;
+}
