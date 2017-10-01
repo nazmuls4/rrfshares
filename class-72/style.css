@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:300,400,700,800|Roboto:300,400,700,900');
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+   
+}
+
+
+.{
+    font-family: 'Niconne', cursive;
+}
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.8;
+font-weight:400;
+font-size: 15px;
+}
+
+body, html{
+    height: 100%;
+}
+
+.section-padding{
+	padding: 100px 0;
+}
+
+
+.single-project{
+    background-image: url(./assets/img/bg_1.jpg);
+}
+
+.bg-1{
+    background-image: url(./assets/img/bg_1.jpg);
+}
+
+.bg-2{
+    background-image: url(./assets/img/bg_2.jpg);
+}
+
+.bg-3{
+    background-image: url(./assets/img/bg_3.jpg);
+}
+
+.bg-4{
+    background-image: url(./assets/img/bg_4.jpg);
+}
+
+.bg-5{
+    background-image: url(./assets/img/bg_5.jpg);
+}
+
+.single-project {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+  z-index: 1;
+  transition: 1s;
+}
+.single-project.wihth-half {
+  height: 300px;
+}
+.row.project-row .col-md-4 {
+  padding: 0;
+}
+.row.project-row {
+  margin: 0;
+}
+
+.single-procet-overly {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  left: 5%;
+  right: 5%;
+  top: 5%;
+  bottom: 5%;
+  width: 90%;
+  background: #222;
+  content: "";
+  opacity: .8;
+  visibility: hidden;
+  opacity: 0;
+}
+.single-project-table {
+  width: 100%;
+  height: 100%;
+  display: table;
+  visibility: hidden;
+  opacity: 0;
+  transition: .4s;
+}
+.single-project-table-cell {
+  display: table-cell;
+  height: auto;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  padding: 20px 15px;
+}
+.single-project-table-cell {
+  color: #fff;
+}
+.single-project-table-cell a {
+  color: #fff;
+  font-size: 18px;
+  color: #43A301;
+  display: inline-block;
+  margin-bottom: 13px;
+}
+.single-project-table-cell h3 {
+  text-transform: uppercase;
+}
+.project-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.project {
+  padding: 100px 0;
+}
+.project-title {
+}
+.project-title h2 {
+  text-transform: uppercase;
+}
+.single-project-table-cell h3 span {
+  display: block;
+  font-size: 70%;
+  text-transform: capitalize;
+  margin-top: 14px;
+}
+.single-project.wihth-half {
+  visibility: visible;
+  opacity: .8;
+}
+.single-procet-overly:hover {
+}
+.single-project:hover .single-procet-overly {
+  visibility: visible;
+  opacity: .8;
+}
+.single-project:hover .single-project-table {
+  visibility: visible;
+  opacity: 1;
+}
+
+.counter-conter span {
+    display: block;
+    font-size: 40px;
+}
+.counter-conter {
+    text-align: center;
+}
